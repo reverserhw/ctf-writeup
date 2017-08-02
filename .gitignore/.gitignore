@@ -1,0 +1,23 @@
+# IDA
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+
+# Python
+*.pyc
+
+# vi
+*.swp
+
+# gdb + peda
+*.gdb_history
+peda-session-*
+
+# core
+core
+
+# mac
+DS_Store
+.DS_Store
