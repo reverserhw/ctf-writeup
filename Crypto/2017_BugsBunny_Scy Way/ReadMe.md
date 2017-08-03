@@ -22,7 +22,7 @@ SOLLANOEIHR
 -> ISHOULDLEARNMORECIPHER
 ```
 
-`IS HOULD LEARN MORE CIPHER` 라는 문장이 만들어지는 것으로 보아 플래그인것 같습니다.
+`I SHOULD LEARN MORE CIPHER` 라는 문장이 만들어지는 것으로 보아 플래그인것 같습니다.
 그러면 이걸 이제, 플래그형식에 맞춰서 인증을 하면 문제가 풀립니다.
 
 `Bugs_Bunny{ISHOULDLEARNMORECIPHER}`
