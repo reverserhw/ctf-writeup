@@ -8,7 +8,7 @@ Link to executable: here
 
 ## Solution
 문제파일을 다운 받아서 `IDA` 로 열어보면 64비트 elf 파일이라는 것을 알 수가 있습니다.
-`idaq64.exe` 다시 문제파일을 받아서 열어 메인코드를 살펴보면 다음과 같은 코드가 있습니다.
+`idaq64.exe` 로 다시 열어서 메인코드를 살펴보면 다음과 같은 코드가 있습니다.
 
 ```
 int __cdecl main(int argc, const char **argv, const char **envp)
