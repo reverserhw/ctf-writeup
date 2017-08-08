@@ -1,5 +1,9 @@
 # 2017 Break In - [Reversing] Simple Secret - Part 2
 ## Problem
+```
+As Aalekh successfully cracked the secret given by Mandy in Simple Secret- Part 1 Mandy comes with a stronger way of hiding the secret. Can you help Aalekh this time?
+Link to executable: here
+```
 
 ## Solution
 `a.out` 이라는 파일이 주어지는데, `HXD` 로 확인해보면 `ELF` 파일임을 알 수 있습니다. 이를 `IDA` 로 열어서
@@ -202,4 +206,5 @@ _BYTE *__fastcall sub_400BB6(unsigned __int64 a1)
 `54.175.180.76/api/breakin/?string=aaaaaaaaaaaaaaaaaaaa`
 
 Ps. 해당 Write-Up 동영상을 보니 문자열의 길이가 20글자이면 플래그가 뜨는 것을 확인 할 수 있었습니다.
+
 [Write-Up Youtube Video](https://www.youtube.com/watch?v=3xZUxjVuKOo)
