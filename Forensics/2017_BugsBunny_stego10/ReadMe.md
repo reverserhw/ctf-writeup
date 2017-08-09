@@ -4,7 +4,7 @@
 My comment :
 Do you even need a description for this one ?!!
 ```
-##Solution
+## Solution
 처음 문제파일을 보면, 이미지가 나오는데 이미지의 정보를 확인하거나
 카빙을 뜨거나 포토샵으로 채도, 밝기, 명암 등을 조절하는 
 유형으로 나올 수가 있습니다. 맨 처음으로 EXIF 를 확인하면 다음과 같이 나옵니다.
