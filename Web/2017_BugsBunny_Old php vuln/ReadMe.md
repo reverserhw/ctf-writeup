@@ -76,3 +76,6 @@ if(isset($id) && isset($pw)) {
 }
 ?>
 ```
+
+## Other Write-Ups
+[Write-Up in Youtube](https://www.youtube.com/watch?v=gWEbrLftMu4)
