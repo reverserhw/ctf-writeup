@@ -26,7 +26,7 @@ http://52.53.151.123/web/web35.php
 	<title> Solve.html </title>
 </head>
 <body>
-<form action="127.0.0.1/prob/index.php" method="POST">
+<form action="index.php" method="POST">
 <input type="text" name="id[]"><br>
 <input type="text" name="pw[]"><br>
 <input type="submit" value="OK">
