@@ -42,7 +42,7 @@ i KTAX ZTRTRTC SuB AKXy KXlp you GiRViRF youN GlTF TRV iA'C FFAKTAwTCXTCy
 `i HATE BANANAS ??? THEy HELp you FiNDiNG youR FlAG AND iT'S GGTHAT?ASEASy`
 
 라고 나옵니다. 여기서 플래그 부분만 살짝 보면
-`GGTHAT?ASEASY` 가 보이는데, 문장의 구조상 `It`s GG that was easy` 로 볼 수 있습니다.
+`GGTHAT?ASEASY` 가 보이는데, 문장의 구조상 `It's GG that was easy` 로 볼 수 있습니다.
 그러면 `UpperCase` 를 해서 인증을 하라고 했으니 `UpperCase` 를 해줍니다.
 
 `Bugs_Bunny{GGTHATWASEASY}`
