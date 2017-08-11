@@ -16,7 +16,7 @@ What he means by ZERO-ONE !!! , Could you please give me the flag !
 
 `Bugs_Bunny{05fe8238cfee1e5f04b65339bea4fed2}`
 
-## Solution Code
+## Zero-One Substitution Code  // Zero, One 을 각각 0,1 로 치환만 해줍니다.
 ```
 # 2017 Bugs_Bunny CTF [Zero-One] Substitution
 
