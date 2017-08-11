@@ -34,3 +34,9 @@ f2.write(data)
 f.close()
 f2.close()
 ```
+
+## Decode Site
+
+[Base64 Decode](https://www.base64decode.org/)
+
+[Binary to Ascii](http://www.binaryhexconverter.com/binary-to-ascii-text-converter)
