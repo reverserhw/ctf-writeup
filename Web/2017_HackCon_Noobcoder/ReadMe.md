@@ -8,7 +8,7 @@ Server: http://defcon.org.in:6062
 Note: dirbuster is NOT required for this question
 ```
 ## Solution
-디크립션을 읽어보니 `gedit` 라는 에디터를 써서 작업하는 도중에 꺼져서 백업파일이 생긴 것 같습니다. `gedit` 의 백업파일은 확장자 뒤에 `~` 가 붙습니다. 이를 이용해 일단 `index.php` 소스를 확인해봅니다
+디크립션을 읽어보니 `gedit` 라는 에디터를 써서 작업하는 도중에 꺼져서 백업파일이 생긴 것 같습니다. `gedit` 의 백업파일은 확장자 뒤에 `~` 가 붙습니다. 이를 이용해 일단 `index.php` 소스를 확인해봅니다.
 
 ```
 <html>
