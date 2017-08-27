@@ -8,7 +8,36 @@ Server: http://defcon.org.in:6062
 Note: dirbuster is NOT required for this question
 ```
 ## Solution
-디크립션을 읽어보니 `gedit` 라는 에디터를 써서 작업하는 도중에 꺼져서 백업파일이 생긴 것 같습니다. 일단 소스를 확인해보면 `index.php` 에는 별 다른게 없고 `checker.php` 에 값을 전송하는 것을 알 수 있습니다. `checker.php` 의 소스를 보면 다음과 같습니다.
+디크립션을 읽어보니 `gedit` 라는 에디터를 써서 작업하는 도중에 꺼져서 백업파일이 생긴 것 같습니다. `gedit` 의 백업파일은 확장자 뒤에 `~` 가 붙습니다. 이를 이용해 일단 `index.php` 소스를 확인해봅니다
+
+```
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+	<body>
+		<div id="fullscreen_bg" class="fullscreen_bg"/>
+			<div class="container">
+				<div class = "container">
+					<form class="form-signin" method="POST" name = "loginpage" action = "checker.php">
+						<h1 class="form-signin-heading text-muted">Sign In</h1>
+						<input id = "user" type="text" name = "username" class="form-control" placeholder="Email address" required="" autofocus="">
+						<input id = "pass" type="password" name = "password" class="form-control" placeholder="Password" required="">
+						<button class="btn btn-lg btn-primary btn-block" type="submit" onclick="load();">
+							Sign In
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+
+</html>
+```
+
+
+`index.php` 에는 별 다른게 없고 `checker.php` 에 값을 전송하는 것을 알 수 있습니다. `checker.php` 의 소스를 보면 다음과 같습니다.
 
 ```
 <html>
