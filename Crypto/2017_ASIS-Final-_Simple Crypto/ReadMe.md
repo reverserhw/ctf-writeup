@@ -1,6 +1,9 @@
 # 2017 ASIS CTF Finals - [Crypto] Simple Crypto
 ## Problem
-
+```
+Begining always needs an interesting challenge, we can assure you, this challenge is an interesting one to begin the CTF!
+Challange Updated, please redownload the binary file!
+```
 ## Solution
 `flag.enc` 와 파이썬 코드가 주어지는데, 파이썬 코드를 보면 다음과 같은 내용이 있습니다.
 
