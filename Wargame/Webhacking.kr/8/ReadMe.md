@@ -96,6 +96,16 @@ if($ck[0]=="admin")
 @solve();
 @mysql_query("delete from lv0");
 }
+
+
+...(생략)
+
+
+if(!$ck)
+{
+$q=@mysql_query("insert into lv0(agent,ip,id) values('$agent','$ip','guest')") or die("query error");
+echo("<br><br>done!  ($count_ck[0]/70)");
+}
 ```
 
 
